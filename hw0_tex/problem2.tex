@@ -1,0 +1,53 @@
+\documentclass{article}
+\setcounter{section}{-1}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+\usepackage{CJKutf8}
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{setspace}
+
+\title{Introduction to FinTech HW0 Problem2}
+\author{B10209040\quad陳彥倫}
+
+\begin{document}
+\begin{CJK*}{UTF8}{bsmi}
+\maketitle
+
+\begin{spacing}{2}
+    \subsection*{1. Blockchain Basics}
+    gas 可以視為在區塊鏈上執行任何操作時所支付的手續費。其價格通常使用Gwei=$10^{-9}$ETH作為單位，依據調整數
+    量的多寡決定交易的速度。因此每個用戶都會設置Gas limit，以避免無上限的燃料費導致消耗大量資源而出現錯誤的情況
+    。由上述可知一筆交易之手續費即為 Gas Limit * Gas Price 的結果。\\
+    EIP-1559 為一改變以太坊交易手續費機制的提案，其目的是為了解決以下問題：a. gas的波動性，可能會使用戶無法交易
+    b. 在EIP-1599出現之前，gas價格由一拍賣機制決定，網路繁忙時gas費用將會急劇上升c.gas價格之高將迫使開發者轉
+    投其他區塊鏈。因此EIP-1559將gas區分為兩個部分，基礎費及小費，以根據使用量進行動態調整來解決以太坊交易擁堵的問題。
+\end{spacing}
+
+\begin{spacing}{2}
+    \subsection*{2. Smart Contract Basics} 
+    var1 - X, var2 - slot 0, var3 - X, var4 - slot 1, var5 - slot 1, var6 - slot 1, var7 - slot 2
+    var8 - X
+\end{spacing}
+
+\begin{spacing}{2}
+    \subsection*{3. Defi Basics} 
+    無償損失意為在進行流動性挖礦時，因幣價的變化所帶來的損失，且幣價變化越大，損失也越大。假如A幣與B幣兩中資產需能
+    在去中心化交易所中自由兌換，則需要流動性池的存在。在兩資產價值相同的情況下，某人想以A兌換B，即代表將A放入池中
+    並拿取B。但經濟學告訴我們，需求上升會帶動價格上升；供應上升會帶動價格下跌。當此人拿出 A 去換 B 的那一
+    刻，A 的供應增加而 B 的需求增加，因此 A 的價格會跌，B 的價格會漲，以程式碼和 LP 自動實現以上供求與價格的關係，
+    就是自動造市商AMM之機制。
+    
+\end{spacing}
+
+
+\end{CJK*}
+\end{document}

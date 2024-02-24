@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1708574785 "/Users/chenyenlun/Desktop/Github/PC/2024-Spring-HW0/hw0_tex/problem2.tex" "problem2.pdf" "problem2" 1708574786
-  "/Users/chenyenlun/Desktop/Github/PC/2024-Spring-HW0/hw0_tex/problem2.tex" 1708574785 2580 ddc816e2db04352d9b39ef2f1c7dfbc5 ""
+["pdflatex"] 1708614468 "/Users/chenyenlun/Desktop/Github/PC/2024-Spring-HW0/hw0_tex/problem2.tex" "problem2.pdf" "problem2" 1708614469
+  "/Users/chenyenlun/Desktop/Github/PC/2024-Spring-HW0/hw0_tex/problem2.tex" 1708614468 2580 354876926370f703c62f41df99241e3a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu30.tfm" 1198435261 412 968478bed15ee072263199105e60507e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/arphic/bsmiu/bsmiu4e.tfm" 1198435261 1288 54146e1815502660d4e5d94a0dc9e180 ""
@@ -220,9 +220,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678896919 2826441 6d7f3dcbee376df1f9017553651352f5 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "problem2.aux" 1708574785 766 d2be773f2eb6aabc40a0760dc0a7f24b "pdflatex"
+  "problem2.aux" 1708614468 766 d2be773f2eb6aabc40a0760dc0a7f24b "pdflatex"
   "problem2.out" 0 -1 0 "pdflatex"
-  "problem2.tex" 1708574785 2580 ddc816e2db04352d9b39ef2f1c7dfbc5 ""
+  "problem2.tex" 1708614468 2580 354876926370f703c62f41df99241e3a ""
   (generated)
   "problem2.aux"
   "problem2.log"
